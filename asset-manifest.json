@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/getmegaassignment/static/css/main.c4511b34.css",
+    "main.js": "/getmegaassignment/static/js/main.be49d184.js",
+    "static/js/787.0adfb834.chunk.js": "/getmegaassignment/static/js/787.0adfb834.chunk.js",
+    "static/media/logo.svg": "/getmegaassignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/getmegaassignment/index.html",
+    "main.c4511b34.css.map": "/getmegaassignment/static/css/main.c4511b34.css.map",
+    "main.be49d184.js.map": "/getmegaassignment/static/js/main.be49d184.js.map",
+    "787.0adfb834.chunk.js.map": "/getmegaassignment/static/js/787.0adfb834.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4511b34.css",
+    "static/js/main.be49d184.js"
+  ]
+}
