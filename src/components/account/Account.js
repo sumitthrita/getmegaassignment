@@ -83,7 +83,7 @@ const Account = props => {
             </div>
             {page === "table" && <div>
                 <div className='search_bar'>
-                    <input type="text" value={searchString} placeholder="Search by compnay or country name" onChange={(e) => setSearchString(e.target.value)} />
+                    <input type="text" value={searchString} placeholder="Search by company or country name" onChange={(e) => setSearchString(e.target.value)} />
                 </div>
                 {rowValues().length > 0 ?
                     <List headers={headers} values={rowValues()} />
