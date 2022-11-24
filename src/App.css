@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  padding: 30px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout_btn {
+  border: 1px solid red;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: red;
+  font-weight: 600;
+}
+
+.show_graph_btn {
+  border: 1px solid #3399ff;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #3399ff;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.custom-tooltip.a-p-f-r {
+  padding: 0 6px;
+}
+
+.desc_title {
+  font-weight: 500;
+}
+
+.desc_content {
+  color: #3399ff;
+}
+
+.header .title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main_login {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 50px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.main_login .title {
+  font-size: 16px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.google_login {
+  border: 1px solid green;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 12px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.facebook_login {
+  border: 1px solid #1877f2;
+  color: #1877f2;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 12px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.account_page {
+  padding: 4px 50px;
+}
+
+.account_page .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.account_page .title span {
+  color: #1877f2;
+}
+
+.table_list {
+  border: 1px solid black;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.table-header-group .table-row {
+  display: flex;
+  align-items: center;
+  background-color: #fadfdf;
+  border-radius: 12px 12px 0 0;
+}
+
+.table-header-group .table-cell {
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.table-cell {
+  padding: 8px;
+  width: 80px;
+  color: #822b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-row-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+}
+
+.search_bar {
+  width: 400px;
+  margin-top: 12px;
+}
+
+.search_bar input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.no_list {
+  margin-top: 12px;
+}
+
+.no_list span {
+  color: red;
+}
+
+.table-row-group .table-row .table-cell:nth-child(1) {
+  cursor: pointer;
+}
+
+.graph_one {
+  margin-top: 16px;
+}
+
+.account_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
